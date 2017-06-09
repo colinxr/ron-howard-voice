@@ -9,6 +9,7 @@
   "author": "colin rabyniuk",
   "license": "ISC",
   "dependencies": {
-    "twit": "^2.2.5"
+    "twit": "^2.2.5",
+    "dotenv": "latest"
   }
 }

@@ -1,6 +1,8 @@
 const twit = require ('twit');
 const config = require('./config.js');
 
+require('dotenv').config({ path: 'variables.env' });
+
 const Twitter = new twit(config);
 
 const retweet = function(){
@@ -14,7 +16,7 @@ const retweet = function(){
       // if there no errors
         if (!err) {
           // grab ID of tweet to retweet
-            var retweetId = data.statuses[0].id_str;
+            let retweetId = data.statuses[0].id_str;
             // Tell TWITTER to retweet
             Twitter.post('statuses/retweet/:id', {
                 id: retweetId
