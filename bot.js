@@ -1,6 +1,4 @@
 const twit = require ('twit');
-const config = require('./config.js');
-
 require('dotenv').config({ path: 'variables.env' });
 
 const Twitter = new twit({
