@@ -1,0 +1,14 @@
+{
+  "name": "ron-howard",
+  "version": "1.0.0",
+  "description": "twitter bot to retweet ron howard voice memes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "colin rabyniuk",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
