@@ -37,4 +37,4 @@ const retweet = function(){
 
 retweet();
 
-setInterval(retweet, 600000);
+setInterval(retweet, 3600000);
