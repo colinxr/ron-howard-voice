@@ -40,4 +40,4 @@ const retweet = () => {
 
 retweet();
 
-setInterval(retweet, 3600000);
+setInterval(retweet, 1800000);
